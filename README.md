@@ -1,15 +1,4 @@
-# CodersCamp 2020 - Projekt HTML & CSS
-**CodersCamp (coderscamp.edu.pl) - Największy otwarty kurs programowania webowego** 
-
-Gratulacje! 
-Skoro czytacie ten tekst, oznacza to, że dowiedliście swoich umiejętności ze znajomości HTML & CSS. 
-Zostaliście przydzieleni do zespołu, który będzie się uczył programowania i wykonywał prawdziwe aplikacje webowe.
-Teraz stajecie przed pierwszym większym wyzwaniem. 
-Technologie, o których się uczyliście, trzeba zastosować w praktyce.
-To pierwszy i ostatni na CodersCamp projekt, który będziecie robić w pojedynkę.
-Jednakże już macie cały zespół i mentora, który z pewnością będzie Was wspierał.
-
-## Projekt HTML & CSS — Wizytówka / Portfolio
+# Projekt HTML & CSS — Wizytówka / Portfolio
 
 ### Zasady wykonywania projektu (wspólne dla wszystkich grup i mentorów): 
 
@@ -58,54 +47,3 @@ Motywem przewodnim powinniście być właśnie Wy sami lub o wasze zrealizowane 
 Jesteś fotografem? Możesz przygotować stronę reklamującą swoje usługi. 
 Jako fryzjer czy mechanik, możesz zrobić podobnie. 
 Świat web designu stoi przed Tobą otworem. 
-
-W tym pierwszym, rozgrzewkowym projekcie pracujecie jeszcze osobno. 
-Pamiętajcie, że macie zespół i mentora, który jest tutaj, żeby Was wspierać przez cały czas trwania kursu. 
-
-Dajcie się lepiej poznać dzięki internetowi i swoim umiejętnością! :) 
-
-#### Jak rozpocząć pracę nad projektem
-Aby ułatwić prezentację projektu innym osobom, dobrze, gdyby był on dostępny bez problemów pod adresem strony internetowej.
-W tym przypadku większość pracy z tym związanej zrobiliśmy już za Ciebie. 
-Oto co musisz zrobić, żeby zobaczyć efekt i zacząć development:
-
-1. Wykonaj fork tego repozytorium do swojego własnego profilu. 
-Po kliknięciu przycisku pokazanego poniżej GitHub przeniesie Cię automatycznie na Twoją kopię tego repozytorium.
-To tutaj będziesz wykonywać swoją stronę.
-![./.github/images/Project1Prepare1.png](./.github/images/Project1Prepare1.png)
-1. Przejdź do zakładki Settings w Twoim repozytorium.
-![./.github/images/Project1Prepare2.png](./.github/images/Project1Prepare2.png)
-1. Znajdź w zakładce setting sekcję GitHub Pages i wybierz branch *main* jako source (na screenie dawna nazwa głównej gałęzi - master).
-![./.github/images/Project1Prepare3.png](./.github/images/Project1Prepare3.png)
-1. Po wyborze brancha *main*, zatwierdź ustawienia, klikając przycisk `Save`. 
-Wszystko powinno wyglądać tak jak w czerwonym polu poniżej.
-Dzięki temu aktywujesz GitHub Pages dla swojego repozytorium.
-![./.github/images/Project1Prepare4.png](./.github/images/Project1Prepare4.png)
-1. Znajdź sekcję GitHub Pages w zakładce Setting jeszcze raz.
-Teraz powinien znajdować się w tym miejscu link. Po kliknięciu zaprowadzi Cię do Twojej strony.
-Ten link możesz przekazać teraz kolegom z zespołu i mentorowi. 
-Będą mogli dać Ci cenne wskazówki i pomóc z błędami bez pobierania całego repozytorium.
-A Twoja strona jest od razu dostępna w internecie dla każdego, kto chciałby ją odwiedzić. I to kompletnie za darmo!
-![./.github/images/Project1Prepare5.png](./.github/images/Project1Prepare5.png)
-1. Jeśli po kliknięciu w link, pokazała Ci się strona o tej treści, to znaczy, że wszystko jest w porządku.
-![./.github/images/Project1Prepare6.png](./.github/images/Project1Prepare6.png)
-
-Od teraz każda zmiana, jaką commitujesz do głównego brancha, będzie się pokazywać pod tym adresem.
-Masz już działające środowisko, więc na co czekasz? Do dzieła!
-
-### Porady odnośnie do projektu
-
-#### Interfejs
-Możesz posłużyć się projektem interfejsu strony — wizytówki, wykonanym przez organizatorów projektu. 
-Jest to tylko dla ułatwienia Ci pracy.
-Możesz w trakcie implementacji go dowolnie przekształcać / zmieniać czy zrobić coś zupełnie innego.
-https://www.figma.com/file/WHtiMfcNHt4tc7mDamNBYa/CodersCamp2020-Wizytowka?node-id=0%3A1
-Pamiętaj też, że Twoje rozwiązanie musi być responsywne! 
-Czyli odpowiednio dostosowywać sposób wyświetlania treści do rozmiaru okna przeglądarki.
-
-Inspiracją może być także [DevChallenge.io - Portfolio](https://devchallenges.io/challenges/5ZnOYsSXM24JWnCsNFlt). 
-Pamiętaj tylko, że Ty korzystasz tutaj jedynie z HTML i CSS.
-
-Przygotowane projekty interfejsu użytkownika są tutaj po to, żebyś bez problemów postawił swoje pierwsze kroki w praktycznym wykorzystaniu HTML i CSS.
-Jednakże zachęcamy do wykonania czegoś, co ukaże Twoje wnętrze :) 
-Dobrej zabawy!
