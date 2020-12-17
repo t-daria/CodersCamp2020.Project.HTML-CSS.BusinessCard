@@ -1,0 +1,290 @@
+/*social*/
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+/*font*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+
+:root {
+	--font-color: #000;
+	--text-color: #9da0a7;
+	--card-color: #fff;
+	--bg1-color: #04D9B2;
+	--bg2-color: #D9985F;
+	--bg3-color: #F24171;
+	--bg4-color: #03A678;
+	--social-facebook: #3b5998;
+	--social-github: #24292e;
+	--social-linkedin: #0077b5;
+}
+
+/* BODY, CONTAINER*/
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	color: var(--font-color);
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+	overflow-y: scroll !important;
+	background-color: var(--bg1-color);
+	animation: bgChangeColor 30s infinite;
+	-webkit-animation: bgChangeColor 30s infinite; 
+}
+
+.container {
+	height: 98vh;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+  }
+
+/* NAV */
+.navi {
+	width: 50%;
+	display: flex;
+	padding: 0 10vh 0 0;
+}
+nav ul{
+	overflow: auto;
+	white-space: nowrap;
+	max-width: 87%;
+	margin: 0;
+	padding: 1vh 2.5vh;
+	list-style: none;
+	background-color: var(--card-color);
+	border-radius: 5px;
+	border-bottom-right-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+}
+
+nav ul li a{
+	font-size: 2.5vmin;
+	color: var(--text-color);
+	font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:focus,
+nav ul li a.active{
+	color: var(--font-color);
+}
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:visited,
+nav ul li a:link{
+	text-decoration: none; /*bez podkreślenia*/
+}
+
+/* CARD */
+.card{
+	padding: 5vh;
+	margin: 0 auto;
+	width: 50%;
+	border-color: transparent;
+	border-radius: 5px;
+	border-top-left-radius: 0 !important;
+	background-color: var(--card-color);
+}
+
+.row{
+	display: flex;
+	flex-direction: column;
+}
+
+
+/* CARD TITLE */
+.card-title{
+	margin: 0;
+	padding: 0;
+}
+.card-title h2{
+	font-size: 3.5vmin;
+}
+/* CARD DETAIL */
+.card-detail{
+	color: var(--text-color);
+	font-size: 2.5vmin;
+	padding: 2vh 1vh;
+}
+.card-detail .contact-info span{
+	padding-top: 1vh;
+}
+.card-detail .contact-info a{
+	color: var(--text-color);
+}
+.card-detail .contact-info strong{
+	color: var(--font-color);
+}
+.follow{
+	color: var(--font-color);
+}
+
+/*FORM*/
+.card-contact {
+	max-width: 90%;
+	margin: 0 auto;
+}
+input, textarea, button {
+	width: 90%;
+	padding: 1vh;
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.5vmin;
+}
+
+input[type="text"], input[type="email"], textarea {
+  margin: 0 0 1vh;
+  border: 1px solid var(--text-color);
+  outline: none;
+}
+textarea {
+	height: 12vh;
+}
+input[type="submit"], button {
+	background: var(--text-color);
+	color: var(--font-color);
+	width:30%;
+  }
+  input[type="submit"]:hover, button:hover {
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9); 
+  }
+
+/* SOCIAL */
+.social{
+	width: 1.8em;
+	height: 1.8em;
+	display: inline-block;
+	font-size: 4vmin;
+	border-radius: 0.2em;
+	color: var(--card-color);
+	position: relative;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.social:hover{
+	-webkit-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	transform: scale(0.9); 
+}
+.social i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.social-facebook{background-color:var(--social-facebook);}
+.social-github{
+	background-color: var(--social-github); 
+	margin: 0 1vh;
+}
+.social-linkedin{background-color: var(--social-linkedin);}
+
+
+
+/* ANIMATIONS */
+
+/* BACKGROUND */
+@keyframes bgChangeColor {
+	0%   {background: var(--bg1-color);} 
+	25%  {background: var(--bg2-color);}
+	50%  {background: var(--bg3-color);} 
+	75%  {background: var(--bg4-color);}
+	100% {background: var(--bg1-color);}
+}
+@-webkit-keyframes bgChangeColor { /* Safari and Chrome */
+	0%   {background: var(--bg1-color);} 
+	25%  {background: var(--bg2-color);}
+	50%  {background: var(--bg3-color);} 
+	75%  {background: var(--bg4-color);}
+	100% {background: var(--bg1-color);}
+}
+
+/* CARD FLIP */
+@keyframes flipIn {
+	from {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	60% {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+		opacity: 1;
+	}
+
+	80% {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+	}
+
+	to {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+	}
+}
+@-webkit-keyframes flipIn { /* Safari and Chrome */
+	from {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		opacity: 0;
+	}
+
+	40% {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+	}
+
+	60% {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+		opacity: 1;
+	}
+
+	80% {
+		-webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+		transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+	}
+
+	to {
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+	}
+}
+
+.flipIn {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-backface-visibility: visible !important;
+	backface-visibility: visible !important;
+	-webkit-animation-name: flipIn;
+	animation-name: flipIn;
+}
+
+
