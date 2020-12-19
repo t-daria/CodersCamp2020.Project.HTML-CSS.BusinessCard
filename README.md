@@ -3,13 +3,18 @@
 When designing the business card I wanted to reflect its real **form** and add **innovation**. For this reason, it consists of a front and back side, the transition between them is made possible by an animation of a "rotating" business card.
 
 ### Files: 
-- index.html contains HTML structure of the web page of front side of business card,
+
+- **index.html** contains HTML structure of the web page of front side of business card,
 ![./.github/images/front.png](./.github/images/front.png)
-- back.html contains HTML structure of the web page of back side of business card,
+
+- **back.html** contains HTML structure of the web page of back side of business card,
 ![./.github/images/back.png](./.github/images/back.png)
-- style.css contains CSS styling of the web page (with comments)
+
+- **style.css** contains CSS styling of the web page (with comments)
+
 
 ### Included functionalities that CSS provides:
+
 - Box-model 
 - Cascading CSS 
 - CSS selectors 
