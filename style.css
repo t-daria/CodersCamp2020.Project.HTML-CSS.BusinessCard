@@ -146,6 +146,7 @@ input[type="text"], input[type="email"], textarea {
 }
 textarea {
 	height: 12vh;
+	resize: none;
 }
 input[type="submit"], button {
 	background: var(--text-color);
@@ -287,4 +288,9 @@ input[type="submit"], button {
 	animation-name: flipIn;
 }
 
+
+/* Small Devices - turn off animations*/
+@media only screen and (max-width : 767px) {
+	.animated { all: unset; }
+	}
 
