@@ -1,6 +1,7 @@
 # BUSINESS CARD (HTML & CSS)
 
 When designing the business card I wanted to reflect its real **form** and add **innovation**. For this reason, it consists of a front and back side, the transition between them is made possible by an animation of a "rotating" business card.
+The business card is available on GitHub Pages: https://t-daria.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/
 
 ### Files: 
 
