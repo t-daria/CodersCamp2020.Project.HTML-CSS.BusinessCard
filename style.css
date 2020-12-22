@@ -289,9 +289,11 @@ input[type="submit"], button {
 }
 
 
-/* Small Devices */
+/* Small Devices - turn off background animation*/
 @media only screen and (max-width : 767px) {
 	body {
+		animation: none !important;
+		-webkit-animation: none !important; 
 		background-color: var(--bg1-color) !important;
 	}
 }
